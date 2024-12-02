@@ -19,3 +19,11 @@ if environment == "development" {
     maximumNumberOfLoginAttempts = 10
 }
 // Now maximumNumberOfLoginAttempts has a value, and can be read.
+
+// In this example, the maximum number of login attempts is constant, and its value depends on the environment. In the development environment, it has a value of 100; in any other environment, its value is 10. Both branches of the if statement initialize maximumNumberOfLoginAttempts with some value, guaranteeing that the constant always gets a value.
+
+//////////////////
+
+// You can declare multiple constants or multiple variables on a single line, separated by commas:
+
+var x = 0.0, y = 0.0, z = 0.0
