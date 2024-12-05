@@ -27,3 +27,41 @@ if environment == "development" {
 // You can declare multiple constants or multiple variables on a single line, separated by commas:
 
 var x = 0.0, y = 0.0, z = 0.0
+
+import UIKit
+
+var name: String
+name = "Nice"
+
+var age: Int
+age = 25
+
+
+var latitude: Double
+latitude = 36.166667
+
+var longitude: Float
+longitude = -86.783333
+longitude = -186.783333
+longitude = -1286.783333
+longitude = -12386.783333
+longitude = -123486.783333
+longitude = -1234586.783333
+
+latitude = -86.783333
+latitude = -186.783333
+latitude = -1286.783333
+latitude = -12386.783333
+latitude = -123486.783333
+latitude = -1234586.783333
+
+var stayOutTooLate: Bool
+stayOutTooLate = true
+
+var nothingInBrain: Bool
+nothingInBrain = true
+
+var missABeat: Bool
+missABeat = false
+
+var name2: String = "Tim McGraw"
