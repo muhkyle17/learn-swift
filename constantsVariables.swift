@@ -83,3 +83,29 @@ var name1 = "Tim McGraw"
 var name2 = "Romeo"
 var both = name1 + " and " + name2
 both
+
+
+/////////////
+var a = 1.1
+var b = 2.2
+var c = a + b
+
+c > 3
+c >= 3
+c > 4
+c < 4
+
+c >= 3.3
+c == 3.4
+
+var name = "Tim McGraw"
+name == "Tim McGraw"
+
+var stayOutTooLate = true
+stayOutTooLate
+!stayOutTooLate
+
+
+var name2 = "Tim McGraw"
+name2 == "Tim McGraw"
+name2 != "Tim McGraw"
