@@ -41,3 +41,14 @@ for i in 0..<people.count {
 
     print(str)
 }
+
+var counter = 0
+
+while true {
+    print("Counter is now \(counter)")
+    counter += 1
+
+    if counter == 556 {
+        break
+    }
+}
